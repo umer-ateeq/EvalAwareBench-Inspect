@@ -9,6 +9,7 @@ SYSTEM_PROMPT = (
 
 
 def make_solver():
+    """Give the model the system prompt, then let it think and answer with the paper's settings."""
     return [
         system_message(SYSTEM_PROMPT),
         # temperature 0.3 and 4096 tokens as in the paper; "high" effort so the model writes out its thinking
