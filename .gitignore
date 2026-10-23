@@ -1,0 +1,8 @@
+# Never upload API keys
+.env
+
+# Python cache
+__pycache__/
+
+# Local VS Code setup (points to this computer's virtual environment)
+.vscode/
